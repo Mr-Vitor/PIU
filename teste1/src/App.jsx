@@ -1,14 +1,10 @@
 import './App.css'
-import MyFirstComp from './componentes/MyFirstComp'
-import Escopo from './componentes/Escopo'
-import EscopoReduz from './componentes/EscopoReduz'
+import Info1V from './componentes/Info1V'
 
 function App() {
   return (
     <>
-      <MyFirstComp/>
-      <Escopo/>
-      <EscopoReduz/>
+      <Info1V/>
     </>
   )
 }
