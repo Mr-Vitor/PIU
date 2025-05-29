@@ -1,4 +1,6 @@
-export default function Card ({key, name, image, onClick})
+import "./Card.css"
+
+export default function Card ({name, image, onClick})
 {
     return(
         <div className="card" onClick={onClick} >

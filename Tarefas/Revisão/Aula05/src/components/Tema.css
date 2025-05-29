@@ -1,0 +1,61 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/* Tornar divs ocuparem o espaço total */
+div {
+    width: 100%;
+    min-height: 10vh;
+}
+/* Tema.css */
+
+.light {
+    background-color: #f5f5f5;
+    color: #222;
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .light button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    color: #1e1e1e;
+    transition: background-color 0.2s ease;
+  }
+  .light button:hover{
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+  }
+  
+  .dark {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .dark button{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    transition: background-color 0.2s ease;
+  }
+  .dark > button:hover{
+    background-color: #f5f5f5;
+    color: #1e1e1e;
+  }
+  

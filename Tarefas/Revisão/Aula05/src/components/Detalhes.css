@@ -1,0 +1,32 @@
+/* Detalhes.css */
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    justify-self: center;
+  }
+  
+  .detalhes h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .detalhes img {
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .detalhes figcaption {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  

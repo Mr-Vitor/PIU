@@ -1,4 +1,7 @@
 import { useState } from "react"
+
+import "./Tema.css"
+
 export default function Tema({children})
 {
     const [theme, setTheme] = useState('light');
