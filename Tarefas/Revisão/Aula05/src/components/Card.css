@@ -1,0 +1,33 @@
+/* Card.css */
+
+.card {
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    text-align: center;
+    height: 260px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card figure {
+    margin: 0;
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .card figcaption {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
