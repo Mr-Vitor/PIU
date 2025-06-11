@@ -1,0 +1,31 @@
+.contador{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 50vw;
+}
+.contador .line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 30%;
+}
+
+.line button{
+    padding: 10px 16px;
+    width: 70px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contador .line .maior {
+    background-color: green;
+}
+
+.contador .line .negativo {
+    background-color: red;
+}
